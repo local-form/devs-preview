@@ -85,5 +85,6 @@
       <footer><p class="footer-name">Dev’s.</p><p>Jamaican Cuisine · Bloomfield</p><p class="fine">Photos: public Google and Facebook listings, via Restaurantji. Pitch preview only; reuse permission pending.</p><a href="https://localform.online" target="_blank" rel="noopener">Preview by Local Form ↗</a></footer>
     </main>
   </div>
+<script>/* lf-open: counts a tagged preview link being opened (?r=). No cookies. Local Form */(function(){try{var r=new URLSearchParams(location.search).get('r');if(!r||!navigator.sendBeacon||sessionStorage.getItem('lf-open'))return;sessionStorage.setItem('lf-open','1');navigator.sendBeacon('https://localform.online/api/open',JSON.stringify({r:r,s:location.pathname.split('/')[1]||location.hostname,d:matchMedia('(pointer:coarse)').matches?'phone':'desktop'}))}catch(e){}})();</script>
 </body>
 </html>
