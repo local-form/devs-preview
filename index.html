@@ -10,8 +10,8 @@
   <meta name="description" content="A local preview for Dev’s Jamaican Cuisine at 597 Bloomfield Avenue. Explore Jamaican favorites and call (973) 748-3868.">
   <meta property="og:type" content="website"><meta property="og:title" content="Dev’s Jamaican Cuisine · Bloomfield, NJ"><meta property="og:description" content="Jerk chicken, curry goat, oxtail and rice and peas at 597 Bloomfield Avenue. Call (973) 748-3868.">
   <meta property="og:url" content="https://preview.localform.online/devs-preview/"><meta property="og:image" content="https://preview.localform.online/devs-preview/assets/og.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
-  <link rel="stylesheet" href="styles.css?v=8">
-  <script src="app.js?v=3" defer></script>
+  <link rel="stylesheet" href="styles.css?v=9">
+  <script src="app.js?v=4" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Restaurant","name":"Dev's Jamaican Cuisine","telephone":"+19737483868","servesCuisine":"Jamaican","address":{"@type":"PostalAddress","streetAddress":"597 Bloomfield Avenue","addressLocality":"Bloomfield","addressRegion":"NJ","postalCode":"07003","addressCountry":"US"}}</script>
 </head>
 <body>
@@ -21,31 +21,27 @@
     <a class="brand" href="#home" aria-label="Dev’s Jamaican Cuisine home">Dev’s<span>Jamaican Cuisine</span></a>
     <nav aria-label="Main navigation"><a href="#menu">Menu</a><a href="#visit">Visit</a><a class="call-link" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call to order</a></nav>
   </header>
-  <div class="stage" id="home">
-    <aside class="place" aria-label="Dev’s on Bloomfield Avenue">
-      <img src="assets/storefront.webp" alt="Dev’s Jamaican Cuisine storefront with its green and yellow awning at number 597" width="1400" height="788" fetchpriority="high">
-      <div class="place-caption"><span>597 Bloomfield Avenue</span><span>Bloomfield, New Jersey</span></div>
-    </aside>
-    <main id="main">
-      <section class="hero" aria-labelledby="title">
-        <p class="eyebrow">Concept preview</p>
-        <p class="rating"><span aria-hidden="true">★</span> 4.3 on Google</p>
-        <h1 id="title">Dev’s Jamaican<br>Cuisine.</h1>
-        <p class="intro">Jerk chicken. Curry goat. Oxtail.<br>A taste of Jamaica on Bloomfield Avenue.</p>
-        <ul class="dish-chips" aria-label="Favorites"><li>Jerk chicken</li><li>Curry goat</li><li>Oxtail</li><li>Ackee &amp; codfish</li></ul>
-        <div class="hero-actions"><a class="button" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call (973) 748-3868</a><a class="button ghost" href="#menu">See the menu</a></div>
-        <p class="hours-brief">Mon–Sat · 11am–10pm*<br>Sunday · Closed</p>
-        <p class="fine">*Listed hours; call to confirm.</p>
-      </section>
+  <section class="hero" id="home" aria-labelledby="title">
+    <div class="hero-copy">
+      <p class="rating"><span aria-hidden="true">★</span> 4.3 on Google</p>
+      <h1 id="title">Dev’s Jamaican<br>Cuisine.</h1>
+      <p class="intro">Jamaican home cooking that neighbors say tastes like their grandmother made it, at 597 Bloomfield Avenue.</p>
+      <div class="hero-actions"><a class="button" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Call (973) 748-3868</a><a class="button ghost" href="#menu">See the menu</a></div>
+      <p class="hours-brief">Call for today’s hours · Sunday closed</p>
+      <p class="jump"><span>Jump to</span> <a href="#m-chicken" data-jump>Jerk chicken</a> <a href="#m-goat" data-jump>Curry goat</a> <a href="#m-goat" data-jump>Oxtail</a> <a href="#m-sea" data-jump>Ackee &amp; codfish</a></p>
+    </div>
+    <figure class="hero-photo"><img src="assets/storefront.webp" alt="Dev’s Jamaican Cuisine storefront with its green and yellow awning at number 597" width="1600" height="721" fetchpriority="high"><figcaption>597 Bloomfield Avenue · Bloomfield, NJ</figcaption></figure>
+  </section>
+  <main id="main">
       <section id="menu" class="menu-section" aria-labelledby="menu-title">
         <p class="eyebrow">The menu</p>
         <h2 id="menu-title">The favorites.</h2>
         <p>Jamaican dishes, from the kitchen at Dev’s. Call for today’s availability, portions and prices.</p>
         <div class="menu-groups">
-          <div class="menu-group"><h3>Chicken</h3><ul><li>Jerk chicken</li><li>Brown stew chicken</li><li>Curry chicken</li></ul></div>
-          <div class="menu-group"><h3>Goat &amp; oxtail</h3><ul><li>Curry goat</li><li>Oxtail</li></ul></div>
-          <div class="menu-group"><h3>From the sea</h3><ul><li>Ackee &amp; codfish</li><li>Fish</li></ul></div>
-          <div class="menu-group"><h3>On the side</h3><ul><li>Rice and peas</li><li>Fried plantains</li></ul></div>
+          <article class="menu-group" id="m-chicken"><img src="assets/chicken.webp" alt="Chicken with greens from Dev’s kitchen" width="893" height="403" loading="lazy"><div class="mg-body"><h3>Chicken</h3><ul><li>Jerk chicken</li><li>Brown stew chicken</li><li>Curry chicken</li></ul></div></article>
+          <article class="menu-group" id="m-goat"><img src="assets/oxtail.webp" alt="Oxtail with rice and peas at Dev’s" width="750" height="472" loading="lazy"><div class="mg-body"><h3>Goat &amp; oxtail</h3><ul><li>Curry goat</li><li>Oxtail</li></ul></div></article>
+          <article class="menu-group" id="m-sea"><div class="mg-ask"><p>Ask what fish is in today.</p></div><div class="mg-body"><h3>From the sea</h3><ul><li>Ackee &amp; codfish</li><li>Fish</li></ul></div></article>
+          <article class="menu-group" id="m-sides"><img src="assets/blue-plate.webp" alt="Rice and peas, cabbage and fried plantain on a plate at Dev’s" width="750" height="730" loading="lazy"><div class="mg-body"><h3>On the side</h3><ul><li>Rice and peas</li><li>Fried plantains</li></ul></div></article>
         </div>
         <a class="button" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>Ask what’s cooking today</a>
       </section>
@@ -53,38 +49,46 @@
         <p class="eyebrow">Reviews</p>
         <h2 id="reviews-title">From the neighbors.</h2>
         <p class="rating-line"><span aria-hidden="true">★★★★</span><span class="dim" aria-hidden="true">★</span> 4.3 on Google</p>
+        <div class="quotes">
         <blockquote><p>“The fish and rice and peas was delicious.”</p><cite>Dacia · Google review</cite></blockquote>
         <blockquote><p>“Great staff and the food were excellent.”</p><cite>Earl · Customer review</cite></blockquote>
         <blockquote><p>“This food makes me feel like my grandmother and mother cooked it!”</p><cite>Customer review</cite></blockquote>
+        </div>
         <p class="fine">Reviews excerpted from public listings.</p>
       </section>
       <section class="food" aria-labelledby="food-title">
         <p class="eyebrow">Photos</p>
         <h2 id="food-title">A closer look.</h2>
-        <figure class="gallery-main"><img id="gallery-image" src="assets/platter.webp" alt="A meat platter with rice and peas and fried plantains at Dev’s" width="1400" height="1400" loading="lazy"><figcaption id="gallery-caption">Rice and peas, plantains, and a full plate.</figcaption></figure>
-        <div class="gallery-controls" role="group" aria-label="Choose a photo">
-          <button type="button" data-photo="platter" aria-pressed="true">The platter</button><button type="button" data-photo="oxtail" aria-pressed="false">Oxtail</button><button type="button" data-photo="chicken" aria-pressed="false">Chicken</button>
+        <div class="gallery">
+          <figure class="gallery-main"><button type="button" class="zoom" aria-label="Enlarge photo"><img id="gallery-image" src="assets/platter.webp" alt="A plate of stew with rice and peas and fried plantains at Dev’s" width="1200" height="925" loading="lazy"><span class="zoom-tag" aria-hidden="true">Tap to enlarge</span></button><figcaption id="gallery-caption">A full plate: stew, rice and peas, fried plantains.</figcaption></figure>
+          <div class="gallery-controls" role="group" aria-label="Choose a photo">
+            <button type="button" data-photo="platter" aria-pressed="true"><img src="assets/platter-thumb.webp" alt="" width="240" height="185" loading="lazy">The platter</button><button type="button" data-photo="closeup" aria-pressed="false"><img src="assets/closeup-thumb.webp" alt="" width="240" height="166" loading="lazy">Up close</button><button type="button" data-photo="plate" aria-pressed="false"><img src="assets/curry-plate-thumb.webp" alt="" width="214" height="240" loading="lazy">Rice &amp; peas</button>
+          </div>
         </div>
-        <figure class="window-shot"><img src="assets/window.webp" alt="Dev’s sunset logo and the seating visible through its front window" width="1400" height="788" loading="lazy"><figcaption>Look for the green &amp; yellow at 597.</figcaption></figure>
+        <dialog class="viewer" aria-label="Photo viewer"><figure><img alt="" width="1200" height="925"><figcaption></figcaption></figure><button type="button" class="v-btn v-prev" aria-label="Previous photo">‹</button><button type="button" class="v-btn v-next" aria-label="Next photo">›</button><button type="button" class="v-btn v-close" aria-label="Close photo viewer">×</button></dialog>
       </section>
       <section id="visit" class="visit" aria-labelledby="visit-title">
-        <p class="eyebrow">Visit</p>
-        <h2 id="visit-title">Come by Dev’s.</h2>
-        <p class="address">597 Bloomfield Avenue<br>Bloomfield, NJ 07003</p>
-        <dl><div><dt>Monday–Saturday</dt><dd>11am–10pm*</dd></div><div><dt>Sunday</dt><dd>Closed</dd></div></dl>
-        <p class="fine">*Public listings differ on Friday closing. Please call before visiting.</p>
-        <a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Dev%27s%20Jamaican%20Cuisine%20597%20Bloomfield%20Ave%20Bloomfield%20NJ" target="_blank" rel="noopener">Get directions</a>
-        <a class="button ghost-light" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>(973) 748-3868</a>
+        <div class="visit-info">
+          <p class="eyebrow">Visit</p>
+          <h2 id="visit-title">Come by Dev’s.</h2>
+          <p class="address">597 Bloomfield Avenue<br>Bloomfield, NJ 07003</p>
+          <p class="hours-call">Call for today’s hours. Sunday closed.</p>
+          <div class="visit-actions"><a class="button" href="https://www.google.com/maps/search/?api=1&amp;query=Dev%27s%20Jamaican%20Cuisine%20597%20Bloomfield%20Ave%20Bloomfield%20NJ" target="_blank" rel="noopener">Get directions</a><a class="button ghost-light" href="tel:+19737483868"><svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg>(973) 748-3868</a></div>
+        </div>
         <div class="map"><iframe title="Map to Dev’s Jamaican Cuisine, 597 Bloomfield Ave, Bloomfield" src="https://www.google.com/maps/embed?origin=mfe&amp;pb=!1m3!2m1!1sDev's+Jamaican+Cuisine+597+Bloomfield+Ave+Bloomfield+NJ+07003!6i16" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
       </section>
       <section class="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">Catering or a big order?</h2>
-        <p>For a regular takeout order, call the kitchen. For parties and big orders, send a request and Dev’s will call you back. This form is a preview and sends nothing.</p>
-        <form id="preview-form" class="lf-req" data-lf-request data-lf-confirm="Preview only: nothing was sent. On the real site, Dev’s calls you back to confirm the menu and price. To order now, call (973) 748-3868."><div class="lf-row"><label>Your name<input type="text" name="name" autocomplete="name" required></label><label>Phone<input type="tel" name="phone" autocomplete="tel" inputmode="tel" required></label></div><div class="lf-row"><label>Date needed<input type="date" name="day" data-sum="%" required></label><label>How many people?<input type="number" name="guests" min="1" inputmode="numeric" data-sum="% people" required></label></div><label>What would you like?<textarea name="order" rows="3" data-sum="%" placeholder="Which dishes, and roughly how much" required></textarea></label><button class="button" type="submit">Send catering request</button><p class="lf-done" role="status" aria-live="polite" hidden></p></form>
+        <div class="lf-wrap">
+          <div>
+            <p class="eyebrow">Big orders</p>
+            <h2 id="contact-title">Catering or a big order?</h2>
+            <p>For a regular takeout order, call the kitchen. For parties and big orders, send a request and Dev’s will call you back. This form is a preview and sends nothing.</p>
+          </div>
+          <form id="preview-form" class="lf-req" data-lf-request data-lf-confirm="Preview only: nothing was sent. On the real site, Dev’s calls you back to confirm the menu and price. To order now, call (973) 748-3868."><div class="lf-row"><label>Your name<input type="text" name="name" autocomplete="name" required></label><label>Phone<input type="tel" name="phone" autocomplete="tel" inputmode="tel" required></label></div><div class="lf-row"><label>Date needed <span>(optional)</span><input type="date" name="day" data-sum="%"></label><label>How many people? <span>(optional)</span><input type="number" name="guests" min="1" inputmode="numeric" data-sum="% people"></label></div><fieldset class="dishes"><legend>Dishes you’d like <span>(optional)</span></legend><label><input type="checkbox" name="dish" value="Jerk chicken" data-sum="%">Jerk chicken</label><label><input type="checkbox" name="dish" value="Curry goat" data-sum="%">Curry goat</label><label><input type="checkbox" name="dish" value="Oxtail" data-sum="%">Oxtail</label><label><input type="checkbox" name="dish" value="Brown stew chicken" data-sum="%">Brown stew chicken</label><label><input type="checkbox" name="dish" value="Rice and peas" data-sum="%">Rice and peas</label><label><input type="checkbox" name="dish" value="Fried plantains" data-sum="%">Fried plantains</label></fieldset><label>Anything else? <span>(optional)</span><textarea name="order" rows="3" data-sum="%" placeholder="Roughly how much, or anything Dev’s should know"></textarea></label><button class="button" type="submit">Send catering request</button><p class="lf-done" role="status" aria-live="polite" hidden></p></form>
+        </div>
       </section>
       <footer><p class="footer-name">Dev’s.</p><p>Jamaican Cuisine · Bloomfield</p><p class="fine">Photos: public Google and Facebook listings, via Restaurantji. Pitch preview only; reuse permission pending.</p><a href="https://localform.online" target="_blank" rel="noopener">Preview by Local Form ↗</a></footer>
-    </main>
-  </div>
+  </main>
 <script>/* lf-open: counts a tagged preview link being opened (?r=). No cookies. Local Form */(function(){try{var r=new URLSearchParams(location.search).get('r');if(!r||!navigator.sendBeacon||sessionStorage.getItem('lf-open'))return;sessionStorage.setItem('lf-open','1');navigator.sendBeacon('https://localform.online/api/open',JSON.stringify({r:r,s:location.pathname.split('/')[1]||location.hostname,d:matchMedia('(pointer:coarse)').matches?'phone':'desktop'}))}catch(e){}})();</script>
 </body>
 </html>
